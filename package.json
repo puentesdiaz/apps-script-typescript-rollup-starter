@@ -11,6 +11,7 @@
     "clean": "rm -rf build && rm -rf dist",
     "manifest": "cp appsscript.json dist/",
     "manifest:watch": "chokidar --initial appsscript.json -c \"cp {path} dist/\"",
+    "b.dev": "rollup -c && npm run manifest && npx @google/clasp push -f -P .clasp.dev.json",
     "build": "rollup -c && npm run manifest",
     "build:watch": "rollup -c --watch",
     "deploy": "npx @google/clasp push -f",
