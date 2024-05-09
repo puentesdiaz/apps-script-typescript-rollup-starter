@@ -6,7 +6,6 @@ function doGet () {
     ContentService.MimeType.JSON
   )
 }
-
 /*
  * Copyright 2022 Google LLC
  *
