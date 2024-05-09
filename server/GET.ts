@@ -3,7 +3,6 @@ function getJSON (): string {
     uno: Math.random(),
     dos: Math.random()
   }
-
   return JSON.stringify(obj_json)
 }
 
