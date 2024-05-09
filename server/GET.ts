@@ -1,7 +1,7 @@
 function getJSON (): string {
   const obj_json = {
-    uno: 1,
-    dos: 2
+    uno: Math.random(),
+    dos: Math.random()
   }
 
   return JSON.stringify(obj_json)
