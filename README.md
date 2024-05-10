@@ -101,4 +101,11 @@ For client-side HTML:
 The `dist/` directory contains the transpiled code after the build is run.
 
 
+### Building Deploy and PUSH...
+
+```sh
+npm run b.dev 
+```
+
+
 
